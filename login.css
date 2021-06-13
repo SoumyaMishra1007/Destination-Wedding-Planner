@@ -1,0 +1,33 @@
+body{margin: 0;padding: 0;box-sizing: border-box;}
+.box{  display: flex;}
+.img1{width: 50vw;height:50vw;}
+.login-box{background-color: white; height: 50vw;width:50vw ;color: black;padding: 5vw; font-size: 1.7vw;}
+.text{font-size: 2.4vw; color: #7F1D1D;}
+input[type="text"], input[type="password"]{ padding: 1vw; width: 90%; font-size: 1.2vw;border-radius: 0.7vw;border-color:#7F1D1D}
+label{padding: 0.7vw;}
+.btn1{
+    width: 90%; padding: 1vw; background:linear-gradient(to right, black,#7F1D1D);margin-bottom: 1.5vw; 
+    border-color:black ; margin-top: 1.5vw;border-radius: 1vw;font-size: 1.5vw;color: white;    
+}
+@media screen and (max-width:900px){
+    .img1{width: 50vw;height: 65vw;}
+    .text{font-size: 4vw; color: #7F1D1D;}
+    .login-box{background-color: white; height: 65vw;width:50vw ;color: black;padding: 5vw; font-size: 3vw;}
+    input[type="text"], input[type="password"]{ padding: 1.6vw; width: 90%; font-size: 2vw;border-radius: 2vw;border-color:#7F1D1D}
+    label{padding: 1.2vw;}
+    .btn1{
+        width: 90%; padding: 1.5vw; background:linear-gradient(to right, black,#7F1D1D);margin-bottom: 1.5vw; 
+        border-color:black ; margin-top: 1.5vw;border-radius: 2vw;font-size: 2.5vw;color: white;    
+    }
+}
+@media screen and (max-width:480px){
+    .img1{width: 50vw;height: 100vw;}
+    .text{font-size: 5vw; color: #7F1D1D;}
+    .login-box{background-color: white; height: 100vw;width:50vw ;color: black;padding: 5vw; font-size: 3.6vw;}
+    input[type="text"], input[type="password"]{ padding: 2vw; width: 90%; font-size: 2.4vw;border-radius: 2vw;border-color:#7F1D1D}
+    label{padding: 1.7vw;}
+    .btn1{
+        width: 90%; padding: 2vw; background:linear-gradient(to right, black,#7F1D1D);margin-bottom: 1.5vw; 
+        border-color:black ; margin-top: 3vw;border-radius: 3vw;font-size: 2.8vw;color: white;    
+    }
+}

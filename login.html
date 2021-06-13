@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LOGIN</title>
+    <link href="login.css" rel="stylesheet" type="text/css" media="all">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="nav.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+      </style>
+  </head>
+  <body>
+ <div class="nav">
+  <nav id="mainav" class="clear"> 
+    <!-- ################################################################################################ -->
+    <ul class="clear">
+      <li><a href="landing.html">Home</a></li>          
+    <li><a href="Register.html">Register</a>
+      <li class="active"><a href="#" class="active">LOGIN</a>
+      </ul>
+  
+    <!-- ################################################################################################ -->
+  </nav>
+ </div>
+<div class="box">
+<img src="images/login2.png" class="img1">
+<div class="login-box">
+<form action="login.jsp" method="POST" >
+  <h1 class="text">Login Here</h1>
+  <hr>
+  <div>
+  <label>Email Id</label>
+  </div>
+  <input type="text" placeholder="Enter the email id" required name="email">
+  <div>
+  <label>Password</label>
+  <input type="password" placeholder="Enter The Password" required name="password">
+  </div>
+  <button class="btn1">Login</button>
+  <p>You have not a accout? click here <a href="Register.html" style="color: blue;">Signup</a></p>
+</form>
+</div>
+</div>
+  <footer class="footer">
+    <h1>MY WEDDING !</h1>
+    <p class="para">Copyright &copy; 2021 - All Rights Reserved - <a href="#">Rohit Soumaya Saloni and Pranjal</a></p>
+  </footer>
+  <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>

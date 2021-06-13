@@ -1,0 +1,17 @@
+.nav{background-color:black; height: 5vw;margin:auto; padding: 0;}
+.footer{background-color:black; height: 9vw; padding: 0; margin:auto; text-align: center;}
+.footer h1{font-size: 2vw;color: white;padding-top: 2vw;}
+.footer .para{font-size: 1vw;padding-bottom: 1vw;}
+p :any-link{color: white;}
+@media screen and (max-width:900px){
+    .nav{background-color:black; height: 8.5vw;margin:auto; padding: 0;}
+    .footer{background-color:black; height: 13.5vw; padding: 0; margin:auto; text-align: center; }
+    .footer h1{font-size: 2.4vw; margin-top: 2vw;}
+    .footer .para{font-size: 1vw;padding-bottom: 1vw;}  
+}
+@media screen and (max-width:480px){
+    .nav{background-color:black; height: 15vw;margin:auto; padding: 0;}
+    .footer{background-color:black; height: 18vw; padding: 0; margin:auto; text-align: center; }
+    .footer h1{font-size: 4vw; margin-top: 3vw;}
+    .footer .para{font-size: 2vw;padding-bottom: 2vw;} 
+}
